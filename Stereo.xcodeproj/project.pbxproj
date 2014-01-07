@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045A7FD3187CAE7F0059B668 /* ofxCocoaPlugins.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */; };
+		045A7FD4187CAED10059B668 /* ofxCocoaPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */; };
+		7AC5149F187BB48D00956B3D /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AC5149E187BB48D00956B3D /* libfmodex.dylib */; };
+		DD0A3585145437B500CC89E5 /* ExamplePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */; };
+		DD0A3586145437B500CC89E5 /* ExamplePlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */; };
+		DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD0A3687145441AB00CC89E5 /* Project.xcconfig */; };
+		DD2D7A28145468030074AD61 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D7A27145468030074AD61 /* OpenGL.framework */; };
+		DD9EA902144F308F00E313C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9EA901144F308F00E313C0 /* MainMenu.xib */; };
+		DDA70006144F1CEE00F81C9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA70005144F1CEE00F81C9E /* Cocoa.framework */; };
+		DDA70010144F1CEE00F81C9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */; };
+		DDA70012144F1CEE00F81C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA70011144F1CEE00F81C9E /* main.m */; };
+		DDA70019144F1CEE00F81C9E /* ExampleAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */; };
+		DDF64E43145046CB007B0C0A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E42145046CB007B0C0A /* QTKit.framework */; };
+		DDF64E45145046EC007B0C0A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E44145046EC007B0C0A /* AppKit.framework */; };
+		DDF64E4D145046F9007B0C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E46145046F9007B0C0A /* Foundation.framework */; };
+		DDF64E4E145046F9007B0C0A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E47145046F9007B0C0A /* Carbon.framework */; };
+		DDF64E4F145046F9007B0C0A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E48145046F9007B0C0A /* SystemConfiguration.framework */; };
+		DDF64E50145046F9007B0C0A /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E49145046F9007B0C0A /* CoreMIDI.framework */; };
+		DDF64E52145046F9007B0C0A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E4B145046F9007B0C0A /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0405F123187CA0E5009BAA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDA7FFD8144F1C3800F81C9E;
+			remoteInfo = ofxCocoaPlugins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AC5149D187BB3CB00956B3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				7AC5149F187BB48D00956B3D /* libfmodex.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7006B144F277900F81C9E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				045A7FD3187CAE7F0059B668 /* ofxCocoaPlugins.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7AC5149E187BB48D00956B3D /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../ofxCocoaPlugins/ofxCocoaPlugins/libs/openframeworks/libs/fmodex/lib/osx/libfmodex.dylib; sourceTree = "<group>"; };
+		DD0A3582145437B500CC89E5 /* ExamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePlugin.h; sourceTree = "<group>"; };
+		DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExamplePlugin.mm; sourceTree = "<group>"; };
+		DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamplePlugin.xib; sourceTree = "<group>"; };
+		DD0A3687145441AB00CC89E5 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		DD2D7A27145468030074AD61 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DD9EA901144F308F00E313C0 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ofxCocoaPlugins.xcodeproj; path = ../ofxCocoaPlugins/ofxCocoaPlugins.xcodeproj; sourceTree = "<group>"; };
+		DDA70001144F1CEE00F81C9E /* Stereo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stereo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA70005144F1CEE00F81C9E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DDA70008144F1CEE00F81C9E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DDA70009144F1CEE00F81C9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDA7000A144F1CEE00F81C9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA7000D144F1CEE00F81C9E /* Stereo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stereo-Info.plist"; sourceTree = "<group>"; };
+		DDA7000F144F1CEE00F81C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA70011144F1CEE00F81C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA70013144F1CEE00F81C9E /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		DDA70017144F1CEE00F81C9E /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleAppDelegate.mm; sourceTree = "<group>"; };
+		DDF64E42145046CB007B0C0A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		DDF64E44145046EC007B0C0A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		DDF64E46145046F9007B0C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DDF64E47145046F9007B0C0A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DDF64E48145046F9007B0C0A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = ../../../../../../../System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<group>"; };
+		DDF64E49145046F9007B0C0A /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		DDF64E4B145046F9007B0C0A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA7FFFE144F1CEE00F81C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045A7FD4187CAED10059B668 /* ofxCocoaPlugins.framework in Frameworks */,
+				DDA70006144F1CEE00F81C9E /* Cocoa.framework in Frameworks */,
+				DDF64E43145046CB007B0C0A /* QTKit.framework in Frameworks */,
+				DDF64E45145046EC007B0C0A /* AppKit.framework in Frameworks */,
+				DDF64E4D145046F9007B0C0A /* Foundation.framework in Frameworks */,
+				DDF64E4E145046F9007B0C0A /* Carbon.framework in Frameworks */,
+				DDF64E4F145046F9007B0C0A /* SystemConfiguration.framework in Frameworks */,
+				DDF64E50145046F9007B0C0A /* CoreMIDI.framework in Frameworks */,
+				DDF64E52145046F9007B0C0A /* IOKit.framework in Frameworks */,
+				DD2D7A28145468030074AD61 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0405F120187CA0E5009BAA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0A3581145437AB00CC89E5 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				DD0A3582145437B500CC89E5 /* ExamplePlugin.h */,
+				DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */,
+				DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		DDA70002144F1CEE00F81C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA70001144F1CEE00F81C9E /* Stereo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA70004144F1CEE00F81C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D7A27145468030074AD61 /* OpenGL.framework */,
+				DDF64E46145046F9007B0C0A /* Foundation.framework */,
+				DDF64E47145046F9007B0C0A /* Carbon.framework */,
+				DDF64E48145046F9007B0C0A /* SystemConfiguration.framework */,
+				DDF64E49145046F9007B0C0A /* CoreMIDI.framework */,
+				DDF64E4B145046F9007B0C0A /* IOKit.framework */,
+				DDF64E44145046EC007B0C0A /* AppKit.framework */,
+				DDF64E42145046CB007B0C0A /* QTKit.framework */,
+				DDA70005144F1CEE00F81C9E /* Cocoa.framework */,
+				DDA70007144F1CEE00F81C9E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA70007144F1CEE00F81C9E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA70008144F1CEE00F81C9E /* AppKit.framework */,
+				DDA70009144F1CEE00F81C9E /* CoreData.framework */,
+				DDA7000A144F1CEE00F81C9E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DDA7000B144F1CEE00F81C9E /* Stereo */ = {
+			isa = PBXGroup;
+			children = (
+				DD0A3581145437AB00CC89E5 /* Plugins */,
+				DD9EA901144F308F00E313C0 /* MainMenu.xib */,
+				DDA70017144F1CEE00F81C9E /* ExampleAppDelegate.h */,
+				DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */,
+				DDA7000C144F1CEE00F81C9E /* Supporting Files */,
+			);
+			name = Stereo;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		DDA7000C144F1CEE00F81C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7000D144F1CEE00F81C9E /* Stereo-Info.plist */,
+				DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */,
+				DDA70011144F1CEE00F81C9E /* main.m */,
+				DDA70013144F1CEE00F81C9E /* Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA7FFF6144F1CEE00F81C9E = {
+			isa = PBXGroup;
+			children = (
+				7AC5149E187BB48D00956B3D /* libfmodex.dylib */,
+				DD0A3687145441AB00CC89E5 /* Project.xcconfig */,
+				DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */,
+				DDA7000B144F1CEE00F81C9E /* Stereo */,
+				DDA70004144F1CEE00F81C9E /* Frameworks */,
+				DDA70002144F1CEE00F81C9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA70000144F1CEE00F81C9E /* Stereo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA7001F144F1CEF00F81C9E /* Build configuration list for PBXNativeTarget "Stereo" */;
+			buildPhases = (
+				7AC5149D187BB3CB00956B3D /* CopyFiles */,
+				DDA7FFFD144F1CEE00F81C9E /* Sources */,
+				DDA7FFFE144F1CEE00F81C9E /* Frameworks */,
+				DDA7FFFF144F1CEE00F81C9E /* Resources */,
+				DDA7006B144F277900F81C9E /* Copy Frameworks */,
+				7AC514A0187BB53900956B3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stereo;
+			productName = Example;
+			productReference = DDA70001144F1CEE00F81C9E /* Stereo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA7FFF8144F1CEE00F81C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DDA7FFFB144F1CEE00F81C9E /* Build configuration list for PBXProject "Stereo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA7FFF6144F1CEE00F81C9E;
+			productRefGroup = DDA70002144F1CEE00F81C9E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0405F120187CA0E5009BAA3C /* Products */;
+					ProjectRef = DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DDA70000144F1CEE00F81C9E /* Stereo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ofxCocoaPlugins.framework;
+			remoteRef = 0405F123187CA0E5009BAA3C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA7FFFF144F1CEE00F81C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA70010144F1CEE00F81C9E /* InfoPlist.strings in Resources */,
+				DD9EA902144F308F00E313C0 /* MainMenu.xib in Resources */,
+				DD0A3586145437B500CC89E5 /* ExamplePlugin.xib in Resources */,
+				DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AC514A0187BB53900956B3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\" ;";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA7FFFD144F1CEE00F81C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA70012144F1CEE00F81C9E /* main.m in Sources */,
+				DDA70019144F1CEE00F81C9E /* ExampleAppDelegate.mm in Sources */,
+				DD0A3585145437B500CC89E5 /* ExamplePlugin.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA7000F144F1CEE00F81C9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA7001D144F1CEF00F81C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0A3687145441AB00CC89E5 /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		DDA7001E144F1CEF00F81C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0A3687145441AB00CC89E5 /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		DDA70020144F1CEF00F81C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build/Debug\"",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"",
+				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Example/Stereo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Stereo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA70021144F1CEF00F81C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../build/Debug\"",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks\"",
+				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Example/Stereo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = Stereo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA7001F144F1CEF00F81C9E /* Build configuration list for PBXNativeTarget "Stereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA70020144F1CEF00F81C9E /* Debug */,
+				DDA70021144F1CEF00F81C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA7FFFB144F1CEE00F81C9E /* Build configuration list for PBXProject "Stereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA7001D144F1CEF00F81C9E /* Debug */,
+				DDA7001E144F1CEF00F81C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA7FFF8144F1CEE00F81C9E /* Project object */;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB1FCC28-40C3-447C-B520-5168E9CC6B98</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>105D2AE4-E31D-4C55-99ED-4A55419856EF</key>
+		<string>https://github.com/olekristensen/openFrameworks.git</string>
+		<key>356D4E4A-F09A-4CEC-8F75-B148E5736E2F</key>
+		<string>https://github.com/olekristensen/ofxCocoaPlugins.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example/Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>105D2AE4-E31D-4C55-99ED-4A55419856EF</key>
+		<string>../../../ofxCocoaPlugins/libs/openframeworks</string>
+		<key>356D4E4A-F09A-4CEC-8F75-B148E5736E2F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/olekristensen/ofxCocoaPlugins.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>356D4E4A-F09A-4CEC-8F75-B148E5736E2F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>356D4E4A-F09A-4CEC-8F75-B148E5736E2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxCocoaPlugins</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>105D2AE4-E31D-4C55-99ED-4A55419856EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openframeworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
