@@ -20,6 +20,8 @@
     [ocp addHeader:@"MyPlugins"];
     [ocp addPlugin:[[ExamplePlugin alloc] init]];
     [ocp addPlugin:[[Midi alloc] init]];
+    [ocp addPlugin:[[OSCControl alloc] init]];
+    [ocp addPlugin:[[Keystoner alloc] init]];
     [ocp loadPlugins];
 }
 
