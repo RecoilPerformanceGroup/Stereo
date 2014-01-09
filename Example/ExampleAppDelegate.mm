@@ -17,9 +17,11 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     ocp = [[ofxCocoaPlugins alloc] initWithAppDelegate:self];
+    [ocp setNumberOutputviews:1];
     [ocp addHeader:@"MyPlugins"];
     [ocp addPlugin:[[ExamplePlugin alloc] init]];
     [ocp addPlugin:[[Midi alloc] init]];
+    [ocp addPlugin:[[Keystoner alloc] initWithSurfaces:[NSArray arrayWithObjects:@"Floor", nil]] midiChannel:2 ];
     [ocp loadPlugins];
 }
 

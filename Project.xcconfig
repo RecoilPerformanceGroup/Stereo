@@ -3,3 +3,4 @@
 
 OFX_PATH = ../ofxCocoaPlugins/
 #include "../ofxCocoaPlugins/ofxCocoaPlugins/ConfigInclude.xcconfig"
+
