@@ -7,6 +7,7 @@
 //
 
 #import "ExamplePlugin.h"
+#import "Perspective.h"
 
 #import "ExampleAppDelegate.h"
 
@@ -17,11 +18,15 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     ocp = [[ofxCocoaPlugins alloc] initWithAppDelegate:self];
-    [ocp setNumberOutputviews:1];
-    [ocp addHeader:@"MyPlugins"];
-    [ocp addPlugin:[[ExamplePlugin alloc] init]];
+    //[ocp setNumberOutputviews:1];
+    [ocp addHeader:@"Setup"];
+    [ocp addPlugin:[[Keystoner alloc] initWithSurfaces:[NSArray arrayWithObjects:[@"Floor" retain], nil]] midiChannel:2 ];
+    //[ocp addPlugin:[[Perspective alloc] init]];
+    [ocp addPlugin:[[Cameras alloc] initWithNumberCameras:2]];
     [ocp addPlugin:[[Midi alloc] init]];
-    [ocp addPlugin:[[Keystoner alloc] initWithSurfaces:[NSArray arrayWithObjects:@"Floor", nil]] midiChannel:2 ];
+    [ocp addPlugin:[[OSCControl alloc] init] midiChannel:2];
+    [ocp addHeader:@"Scenes"];
+    [ocp addPlugin:[[ExamplePlugin alloc] init]];
     [ocp loadPlugins];
 }
 

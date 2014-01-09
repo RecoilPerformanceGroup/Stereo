@@ -31,8 +31,9 @@
 //
 
 -(void)draw:(NSDictionary *)drawingInformation{
+    ofEnableAlphaBlending();
    ofBackground(255,255,0);
-
+    ofFill();
     ofSetColor(255,0,0);
     ofRect( sin(ofGetElapsedTimeMillis() / 1000.0)*0.5+0.5, 0, 100,100);
     
