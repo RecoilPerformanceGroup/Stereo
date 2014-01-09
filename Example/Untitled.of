@@ -29,7 +29,7 @@
 			</dict>
 			<key>NS.data</key>
 			<data>
-			AAI=
+			AAE=
 			</data>
 		</dict>
 		<dict>
@@ -250,7 +250,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>37</integer>
+					<integer>49</integer>
 				</dict>
 			</array>
 		</dict>
@@ -268,32 +268,42 @@
 					<key>CF$UID</key>
 					<integer>26</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>27</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>28</integer>
+				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>27</integer>
+					<integer>29</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>39</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>44</integer>
 				</dict>
 			</array>
 		</dict>
+		<string>Element One</string>
+		<string>Element Two</string>
 		<string>Floor</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>36</integer>
+				<integer>38</integer>
 			</dict>
 			<key>NS.keys</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>28</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>29</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>30</integer>
@@ -302,9 +312,6 @@
 					<key>CF$UID</key>
 					<integer>31</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>32</integer>
@@ -313,6 +320,9 @@
 					<key>CF$UID</key>
 					<integer>33</integer>
 				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>34</integer>
@@ -321,16 +331,24 @@
 					<key>CF$UID</key>
 					<integer>35</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>36</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>37</integer>
+				</dict>
 			</array>
 		</dict>
 		<string>viewPointX</string>
 		<string>scale</string>
 		<string>viewPointY</string>
 		<string>viewPointZ</string>
-		<real>1.1863558292388916</real>
-		<real>0.95549243688583374</real>
-		<real>1.3462752103805542</real>
-		<real>-0.66571962833404541</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.0</real>
+		<real>0.0</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -344,41 +362,147 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>61</integer>
+				<integer>38</integer>
 			</dict>
-			<key>NS.objects</key>
+			<key>NS.keys</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>38</integer>
+					<integer>30</integer>
 				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>61</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>39</integer>
+					<integer>31</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>32</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>33</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>61</integer>
-			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>40</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>41</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>42</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>43</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>38</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>30</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>31</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>32</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>33</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>46</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>47</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>48</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>1.1863558292388916</real>
+		<real>0.95296716690063477</real>
+		<real>1.3462752103805542</real>
+		<real>-0.66571962833404541</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>50</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>51</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>52</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>74</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>84</integer>
 				</dict>
 			</array>
 		</dict>
@@ -392,46 +516,46 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>41</integer>
+					<integer>53</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>42</integer>
+					<integer>54</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>43</integer>
+					<integer>55</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>44</integer>
+					<integer>56</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>45</integer>
+					<integer>57</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>46</integer>
+					<integer>58</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>48</integer>
+					<integer>60</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>49</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -439,7 +563,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 			</array>
 		</dict>
@@ -455,25 +579,25 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>61</integer>
+				<integer>73</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>50</integer>
+					<integer>62</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>57</integer>
+					<integer>69</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>58</integer>
+					<integer>70</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>59</integer>
+					<integer>71</integer>
 				</dict>
 			</array>
 		</dict>
@@ -487,30 +611,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>51</integer>
+					<integer>63</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>52</integer>
+					<integer>64</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>53</integer>
+					<integer>65</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>54</integer>
+					<integer>66</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>67</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>56</integer>
+					<integer>68</integer>
 				</dict>
 			</array>
 		</dict>
@@ -530,30 +654,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>51</integer>
+					<integer>63</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>52</integer>
+					<integer>64</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>53</integer>
+					<integer>65</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 			</array>
 		</dict>
@@ -567,26 +691,26 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>51</integer>
+					<integer>63</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>52</integer>
+					<integer>64</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>53</integer>
+					<integer>65</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>47</integer>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>56</integer>
+					<integer>68</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -604,30 +728,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>51</integer>
+					<integer>63</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>52</integer>
+					<integer>64</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>53</integer>
+					<integer>65</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>56</integer>
+					<integer>68</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>56</integer>
+					<integer>68</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>60</integer>
+					<integer>72</integer>
 				</dict>
 			</array>
 		</dict>
@@ -652,23 +776,187 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>63</integer>
+					<integer>53</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>64</integer>
+					<integer>54</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>65</integer>
+					<integer>55</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>66</integer>
+					<integer>56</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>67</integer>
+					<integer>57</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>58</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>75</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>76</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>77</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>81</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>82</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>83</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>x</string>
+		<string>y</string>
+		<string>num</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -676,23 +964,334 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>69</integer>
+					<integer>13</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>70</integer>
+					<integer>79</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>71</integer>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>72</integer>
 				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>73</integer>
+					<integer>53</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>54</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>55</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>56</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>57</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>58</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>85</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>86</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>87</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>88</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>89</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>90</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>13</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>79</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>80</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>72</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>92</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>93</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>94</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>95</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>96</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>97</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>98</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>99</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>100</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>101</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>102</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -703,51 +1302,51 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>74</integer>
+					<integer>103</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>79</integer>
+					<integer>108</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>84</integer>
+					<integer>113</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>89</integer>
+					<integer>118</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>94</integer>
+					<integer>123</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>99</integer>
+					<integer>128</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>104</integer>
+					<integer>133</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>109</integer>
+					<integer>138</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>110</integer>
+					<integer>139</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>111</integer>
+					<integer>140</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>116</integer>
+					<integer>145</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>121</integer>
+					<integer>150</integer>
 				</dict>
 			</array>
 		</dict>
@@ -773,12 +1372,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>76</integer>
+				<integer>105</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>78</integer>
+				<integer>107</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -793,12 +1392,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>77</integer>
+				<integer>106</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>75</integer>
+				<integer>104</integer>
 			</dict>
 		</dict>
 		<real>1.1863558292388916</real>
@@ -816,12 +1415,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>81</integer>
+				<integer>110</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>83</integer>
+				<integer>112</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -836,12 +1435,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>82</integer>
+				<integer>111</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>80</integer>
+				<integer>109</integer>
 			</dict>
 		</dict>
 		<real>0.5</real>
@@ -859,12 +1458,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>86</integer>
+				<integer>115</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>88</integer>
+				<integer>117</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -879,12 +1478,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>87</integer>
+				<integer>116</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>85</integer>
+				<integer>114</integer>
 			</dict>
 		</dict>
 		<real>1.3462752103805542</real>
@@ -902,12 +1501,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>91</integer>
+				<integer>120</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>93</integer>
+				<integer>122</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -922,12 +1521,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>92</integer>
+				<integer>121</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>90</integer>
+				<integer>119</integer>
 			</dict>
 		</dict>
 		<real>-0.66571962833404541</real>
@@ -945,12 +1544,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>96</integer>
+				<integer>125</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>98</integer>
+				<integer>127</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -965,15 +1564,15 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>97</integer>
+				<integer>126</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>95</integer>
+				<integer>124</integer>
 			</dict>
 		</dict>
-		<real>-71.725064516067505</real>
+		<real>0.0</real>
 		<real>1</real>
 		<real>-100</real>
 		<real>0.0</real>
@@ -988,12 +1587,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>101</integer>
+				<integer>130</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>103</integer>
+				<integer>132</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -1008,15 +1607,15 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>102</integer>
+				<integer>131</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>100</integer>
+				<integer>129</integer>
 			</dict>
 		</dict>
-		<real>0.27167967750079697</real>
+		<real>0.16695312019255873</real>
 		<real>0.0</real>
 		<real>0.0099999997764825821</real>
 		<real>1</real>
@@ -1031,12 +1630,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>106</integer>
+				<integer>135</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>108</integer>
+				<integer>137</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -1051,12 +1650,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>107</integer>
+				<integer>136</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>105</integer>
+				<integer>134</integer>
 			</dict>
 		</dict>
 		<real>-0.83806872367858887</real>
@@ -1132,12 +1731,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>113</integer>
+				<integer>142</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>115</integer>
+				<integer>144</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -1152,15 +1751,15 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>114</integer>
+				<integer>143</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>112</integer>
+				<integer>141</integer>
 			</dict>
 		</dict>
-		<real>0.95549243688583374</real>
+		<real>0.95296716690063477</real>
 		<real>0.0</real>
 		<real>0.0</real>
 		<real>2</real>
@@ -1175,12 +1774,12 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>118</integer>
+				<integer>147</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>120</integer>
+				<integer>149</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
@@ -1195,12 +1794,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>119</integer>
+				<integer>148</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>117</integer>
+				<integer>146</integer>
 			</dict>
 		</dict>
 		<real>1.3366477489471436</real>
@@ -1257,7 +1856,88 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>124</integer>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>153</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>19</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>2</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>155</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>156</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>cameras</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>158</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1268,11 +1948,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>125</integer>
+					<integer>159</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>126</integer>
+					<integer>160</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1293,7 +1973,7 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1322,7 +2002,7 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1345,14 +2025,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>128</integer>
+					<integer>162</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>129</integer>
+					<integer>163</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1369,12 +2049,28 @@
 					<key>CF$UID</key>
 					<integer>26</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>27</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>28</integer>
+				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>130</integer>
+					<integer>164</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>199</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>233</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1382,10 +2078,15 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>61</integer>
+				<integer>73</integer>
 			</dict>
 			<key>NS.objects</key>
-			<array/>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>165</integer>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -1397,25 +2098,902 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>124</integer>
+					<integer>166</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>9</integer>
+					<integer>167</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>168</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>169</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>170</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>171</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>172</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>173</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>174</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>175</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>176</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>177</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>178</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>179</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>180</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>181</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>182</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>132</integer>
+					<integer>18</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>133</integer>
+					<integer>183</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>184</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>185</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>186</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>187</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>188</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>189</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>190</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>191</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>192</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>193</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>194</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>195</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>196</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>197</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>198</integer>
 				</dict>
 			</array>
 		</dict>
+		<string>active</string>
+		<string>camHandle2x</string>
+		<string>projHandle1x</string>
+		<string>camHandle2y</string>
+		<string>projHandle3x</string>
+		<string>projHandle1y</string>
+		<string>projHandle3y</string>
+		<string>camHandle0x</string>
+		<string>camHandle3x</string>
+		<string>camHandle0y</string>
+		<string>camHandle3y</string>
+		<string>projHandle0x</string>
+		<string>projHandle2x</string>
+		<string>camHandle1x</string>
+		<string>projHandle0y</string>
+		<string>camHandle1y</string>
+		<string>projHandle2y</string>
+		<real>0.89999997615814209</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.10000000149011612</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>200</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>166</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>201</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>202</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>203</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>204</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>205</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>206</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>207</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>208</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>209</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>210</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>211</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>212</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>213</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>214</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>215</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>216</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>217</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>218</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>219</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>220</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>221</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>222</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>223</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>224</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>225</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>226</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>227</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>228</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>230</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>231</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>232</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>camHandle2x</string>
+		<string>projHandle1x</string>
+		<string>camHandle2y</string>
+		<string>projHandle3x</string>
+		<string>projHandle1y</string>
+		<string>projHandle3y</string>
+		<string>camHandle0x</string>
+		<string>camHandle3x</string>
+		<string>camHandle0y</string>
+		<string>camHandle3y</string>
+		<string>projHandle0x</string>
+		<string>projHandle2x</string>
+		<string>camHandle1x</string>
+		<string>projHandle0y</string>
+		<string>camHandle1y</string>
+		<string>projHandle2y</string>
+		<real>0.89999997615814209</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.10000000149011612</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>73</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>234</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>166</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>235</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>237</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>238</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>239</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>240</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>241</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>242</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>243</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>244</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>245</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>246</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>247</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>248</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>249</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>250</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>251</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>252</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>253</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>254</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>255</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>256</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>257</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>258</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>259</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>260</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>261</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>262</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>263</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>264</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>265</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>266</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>camHandle2x</string>
+		<string>projHandle1x</string>
+		<string>camHandle2y</string>
+		<string>projHandle3x</string>
+		<string>projHandle1y</string>
+		<string>projHandle3y</string>
+		<string>camHandle0x</string>
+		<string>camHandle3x</string>
+		<string>camHandle0y</string>
+		<string>camHandle3y</string>
+		<string>projHandle0x</string>
+		<string>projHandle2x</string>
+		<string>camHandle1x</string>
+		<string>projHandle0y</string>
+		<string>camHandle1y</string>
+		<string>projHandle2y</string>
+		<real>0.89999997615814209</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.10000000149011612</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>1</real>
+		<real>0.89999997615814209</real>
+		<real>0.0</real>
+		<real>0.10000000149011612</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>268</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>269</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>270</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>271</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>272</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>273</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>274</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>275</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>158</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>9</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>276</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>277</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>278</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>283</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>288</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>293</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>298</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>303</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>304</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>309</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>314</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>315</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>316</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>321</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>maskLeft1</string>
+		<string>opticalFlowSize1</string>
+		<string>contourFinderEnabled1</string>
+		<string>threshold1</string>
+		<string>maskTop1</string>
+		<string>grab1</string>
+		<string>opticalFlowEnabled1</string>
+		<string>maskBottom1</string>
+		<string>maskRight1</string>
+		<string>bgSubtractionEnabled1</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>280</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>282</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>281</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>279</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>285</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>287</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>286</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>284</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<integer>10</integer>
+		<real>1</real>
+		<real>15</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>290</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>292</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>291</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>295</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>297</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>296</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>294</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>100</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>300</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>302</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>301</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>299</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1432,7 +3010,122 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>306</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>308</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>307</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>305</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>311</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>313</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>312</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>310</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>19</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>2</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1461,7 +3154,7 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1478,20 +3171,106 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>318</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>320</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>319</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>317</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+			<key>controlType</key>
+			<integer>1</integer>
+			<key>defvalue</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>323</integer>
+			</dict>
+			<key>maxVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>325</integer>
+			</dict>
+			<key>midiChannel</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>midiNumber</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>minVal</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>324</integer>
+			</dict>
+			<key>value</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>322</integer>
+			</dict>
+		</dict>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
 				<integer>21</integer>
 			</dict>
 			<key>NS.keys</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>128</integer>
+					<integer>162</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>135</integer>
+					<integer>327</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1499,10 +3278,15 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>61</integer>
+				<integer>73</integer>
 			</dict>
 			<key>NS.objects</key>
-			<array/>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>328</integer>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -1514,7 +3298,108 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>137</integer>
+					<integer>329</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>330</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>properties</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>331</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>332</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>333</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>334</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>335</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>336</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>337</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>5</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>338</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>18</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>339</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>340</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>bgSubtractionEnabled</string>
+		<string>contourFinderEnabled</string>
+		<string>persistentDistance</string>
+		<string>opticalFlowEnabled</string>
+		<string>blur</string>
+		<string>subtractionMode</string>
+		<string>threshold</string>
+		<real>5</real>
+		<real>1</real>
+		<real>100</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>342</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1525,11 +3410,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>138</integer>
+					<integer>343</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>139</integer>
+					<integer>344</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1613,7 +3498,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>142</integer>
+					<integer>347</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1624,11 +3509,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>143</integer>
+					<integer>348</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>144</integer>
+					<integer>349</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1712,11 +3597,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>147</integer>
+					<integer>352</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>148</integer>
+					<integer>353</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1724,26 +3609,26 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>149</integer>
+					<integer>354</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>150</integer>
+					<integer>355</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>155</integer>
+					<integer>360</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>156</integer>
+					<integer>361</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>157</integer>
+					<integer>362</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1761,17 +3646,17 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>152</integer>
+				<integer>357</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>154</integer>
+				<integer>359</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1781,12 +3666,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>153</integer>
+				<integer>358</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>151</integer>
+				<integer>356</integer>
 			</dict>
 		</dict>
 		<real>0.0</real>
@@ -1809,7 +3694,7 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1838,7 +3723,7 @@
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1862,17 +3747,17 @@
 			<key>defvalue</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>159</integer>
+				<integer>364</integer>
 			</dict>
 			<key>maxVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>161</integer>
+				<integer>366</integer>
 			</dict>
 			<key>midiChannel</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>59</integer>
 			</dict>
 			<key>midiNumber</key>
 			<dict>
@@ -1882,12 +3767,12 @@
 			<key>minVal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>160</integer>
+				<integer>365</integer>
 			</dict>
 			<key>value</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>158</integer>
+				<integer>363</integer>
 			</dict>
 		</dict>
 		<real>0.0</real>
@@ -1922,7 +3807,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>164</integer>
+					<integer>369</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1972,7 +3857,7 @@
 		<key>BlobTracker2dCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>134</integer>
+			<integer>326</integer>
 		</dict>
 		<key>BlobTracker2dEnabled</key>
 		<dict>
@@ -1982,12 +3867,12 @@
 		<key>BlobTracker2dProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>131</integer>
+			<integer>267</integer>
 		</dict>
 		<key>CameraCalibrationCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>127</integer>
+			<integer>161</integer>
 		</dict>
 		<key>CameraCalibrationEnabled</key>
 		<dict>
@@ -1997,12 +3882,27 @@
 		<key>CameraCalibrationProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>123</integer>
+			<integer>157</integer>
+		</dict>
+		<key>CamerasCustomProperties</key>
+		<dict>
+			<key>CF$UID</key>
+			<integer>154</integer>
+		</dict>
+		<key>CamerasEnabled</key>
+		<dict>
+			<key>CF$UID</key>
+			<integer>0</integer>
+		</dict>
+		<key>CamerasProperties</key>
+		<dict>
+			<key>CF$UID</key>
+			<integer>152</integer>
 		</dict>
 		<key>ExamplePluginCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>165</integer>
+			<integer>370</integer>
 		</dict>
 		<key>ExamplePluginEnabled</key>
 		<dict>
@@ -2012,7 +3912,7 @@
 		<key>ExamplePluginProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>163</integer>
+			<integer>368</integer>
 		</dict>
 		<key>KeystonerCustomProperties</key>
 		<dict>
@@ -2032,7 +3932,7 @@
 		<key>MidiCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>140</integer>
+			<integer>345</integer>
 		</dict>
 		<key>MidiEnabled</key>
 		<dict>
@@ -2042,12 +3942,12 @@
 		<key>MidiProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>136</integer>
+			<integer>341</integer>
 		</dict>
 		<key>OSCControlCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>145</integer>
+			<integer>350</integer>
 		</dict>
 		<key>OSCControlEnabled</key>
 		<dict>
@@ -2057,12 +3957,12 @@
 		<key>OSCControlProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>141</integer>
+			<integer>346</integer>
 		</dict>
 		<key>PerspectiveCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>122</integer>
+			<integer>151</integer>
 		</dict>
 		<key>PerspectiveEnabled</key>
 		<dict>
@@ -2072,7 +3972,7 @@
 		<key>PerspectiveProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>62</integer>
+			<integer>91</integer>
 		</dict>
 		<key>SelectionPath</key>
 		<dict>
@@ -2082,7 +3982,7 @@
 		<key>TrackerCustomProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>162</integer>
+			<integer>367</integer>
 		</dict>
 		<key>TrackerEnabled</key>
 		<dict>
@@ -2092,7 +3992,7 @@
 		<key>TrackerProperties</key>
 		<dict>
 			<key>CF$UID</key>
-			<integer>146</integer>
+			<integer>351</integer>
 		</dict>
 	</dict>
 	<key>$version</key>

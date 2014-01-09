@@ -17,7 +17,7 @@
     
     [self addProperty:[NumberProperty sliderPropertyWithDefaultvalue:0.5 minValue:0.0 maxValue:1.0] named:@"Light X"];
     [self addProperty:[NumberProperty sliderPropertyWithDefaultvalue:2. minValue:0.0 maxValue:2.0] named:@"Light Y"];
-    [self addProperty:[NumberProperty sliderPropertyWithDefaultvalue:-1. minValue:-100.0 maxValue:0] named:@"Light Z"];
+    [self addProperty:[NumberProperty sliderPropertyWithDefaultvalue:1. minValue:-100.0 maxValue:0] named:@"Light Z"];
     [self addProperty:[NumberProperty sliderPropertyWithDefaultvalue:0. minValue:-20.0 maxValue:20.0] named:@"light foreshortening"];
     
     [self addProperty:[BoolProperty boolPropertyWithDefaultvalue:NO] named:@"debug"];
@@ -39,8 +39,8 @@
     //you can create as many rotations as you want
     //choose which axis you want it to effect
     //you can update these rotations later on
-    squirrelModel.setRotation(0, 270, 1, 0, 0);
-    squirrelModel.setRotation(1, 180, 0, 1, 0);
+    squirrelModel.setRotation(0, 180, 1, 0, 0);
+    squirrelModel.setRotation(1, 180, 0, 0, 1);
     squirrelModel.setScale(0.5, 0.5, 0.5);
     squirrelModel.setPosition(0.5, 0.75, -0.25);
     
@@ -55,7 +55,7 @@
     
     light1_x = PropF(@"Light X");
     light1_y = PropF(@"Light Y");
-    light1_z = (light1_z * 0.95) + (PropF(@"Light Z")* 0.05);
+    light1_z = PropF(@"Light Z");
     
     KeystonePerspective * persp = (KeystonePerspective *)Perspective(@"Floor");
     
@@ -176,16 +176,15 @@
     GLfloat mat_white[] = {1.0, 1.0, 1.0, 0.0};
     GLfloat mat_black[] = {0.0, 0.0, 0.0, 0.0};
     
+    /* light placed at infinity in the direcion <10,10,10>*/
+    GLfloat light_position[] = {light1_x, light1_y, -light1_z, 0.0};
+    glLightfv(GL_LIGHT0, GL_POSITION, light_position);
+    
     ApplySurfaceForProjector(@"Floor",0); {
         
         ApplyPerspective(); {
             
             float aspect = Aspect(@"Floor", 0);
-            
-            /* light placed at infinity in the direcion <10,10,10>*/
-            GLfloat light_position[] = {light1_x, light1_y, -light1_z, 0.0}; 
-            glLightfv(GL_LIGHT0, GL_POSITION, light_position); 
-            
             
             if (doShadows) {
                 glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, mat_black);

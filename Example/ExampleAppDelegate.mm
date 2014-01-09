@@ -20,13 +20,17 @@
     ocp = [[ofxCocoaPlugins alloc] initWithAppDelegate:self];
     //[ocp setNumberOutputviews:1];
     [ocp addHeader:@"Setup"];
-    [ocp addPlugin:[[Keystoner alloc] initWithSurfaces:[NSArray arrayWithObjects:[@"Floor" retain], nil]] midiChannel:2 ];
-    //[ocp addPlugin:[[Perspective alloc] init]];
-    [ocp addPlugin:[[Cameras alloc] initWithNumberCameras:2]];
+    [ocp addPlugin:[[Keystoner alloc] initWithSurfaces:[NSArray arrayWithObjects:@"Floor", @"Element One", @"Element Two", nil]] midiChannel:2 ];
+    [ocp addPlugin:[[Perspective alloc] init]];
+    [ocp addPlugin:[[Cameras alloc] initWithNumberCameras:1] midiChannel:1];
+    [ocp addPlugin:[[CameraCalibration alloc] init] midiChannel:1];
+    [ocp addPlugin:[[BlobTracker2d alloc] init]midiChannel:1];
     [ocp addPlugin:[[Midi alloc] init]];
     [ocp addPlugin:[[OSCControl alloc] init] midiChannel:2];
+    [ocp addPlugin:[[Tracker alloc] init] midiChannel:1];
     [ocp addHeader:@"Scenes"];
     [ocp addPlugin:[[ExamplePlugin alloc] init]];
+
     [ocp loadPlugins];
 }
 
