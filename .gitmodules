@@ -1,0 +1,3 @@
+[submodule "Addons/ofxStereoCamera"]
+	path = Addons/ofxStereoCamera
+	url = https://github.com/olekristensen/ofxStereoCamera.git
