@@ -8,6 +8,7 @@
 
 #import "ExamplePlugin.h"
 #import "Perspective.h"
+#import "Stereocam.h"
 
 #import "ExampleAppDelegate.h"
 
@@ -30,6 +31,7 @@
     [ocp addPlugin:[[Tracker alloc] init] midiChannel:1];
     [ocp addHeader:@"Scenes"];
     [ocp addPlugin:[[ExamplePlugin alloc] init]];
+    [ocp addPlugin:[[Stereocam alloc] init]];
 
     [ocp loadPlugins];
 }

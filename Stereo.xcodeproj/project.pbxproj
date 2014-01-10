@@ -25,6 +25,8 @@
 		7AD784D8187F6B8B0090433E /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D0187F6B8B0090433E /* model3DS.cpp */; };
 		7AD784D9187F6B8B0090433E /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D2187F6B8B0090433E /* texture3DS.cpp */; };
 		7AD784DA187F6B8B0090433E /* ofx3dModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D6187F6B8B0090433E /* ofx3dModelLoader.cpp */; };
+		7AD784E4187F741E0090433E /* Stereocam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784E2187F741E0090433E /* Stereocam.mm */; };
+		7AD784E5187F741E0090433E /* Stereocam.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD784E3187F741E0090433E /* Stereocam.xib */; };
 		DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD0A3687145441AB00CC89E5 /* Project.xcconfig */; };
 		DD2D7A28145468030074AD61 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D7A27145468030074AD61 /* OpenGL.framework */; };
 		DDA70006144F1CEE00F81C9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA70005144F1CEE00F81C9E /* Cocoa.framework */; };
@@ -98,6 +100,9 @@
 		7AD784D5187F6B8B0090433E /* ofx3DBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DBaseLoader.h; sourceTree = "<group>"; };
 		7AD784D6187F6B8B0090433E /* ofx3dModelLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofx3dModelLoader.cpp; sourceTree = "<group>"; };
 		7AD784D7187F6B8B0090433E /* ofx3DModelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DModelLoader.h; sourceTree = "<group>"; };
+		7AD784E1187F741E0090433E /* Stereocam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stereocam.h; sourceTree = "<group>"; };
+		7AD784E2187F741E0090433E /* Stereocam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Stereocam.mm; sourceTree = "<group>"; };
+		7AD784E3187F741E0090433E /* Stereocam.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Stereocam.xib; sourceTree = "<group>"; };
 		DD0A3687145441AB00CC89E5 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		DD2D7A27145468030074AD61 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ofxCocoaPlugins.xcodeproj; path = ../ofxCocoaPlugins/ofxCocoaPlugins.xcodeproj; sourceTree = "<group>"; };
@@ -167,6 +172,7 @@
 				04D480EF187F708E007D5D21 /* ExamplePlugin.mm */,
 				04D480F0187F708E007D5D21 /* ExamplePlugin.xib */,
 				04D480F1187F708E007D5D21 /* Perspective */,
+				7AD784E0187F741E0090433E /* Stereocam */,
 			);
 			path = Plugins;
 			sourceTree = "<group>";
@@ -239,6 +245,16 @@
 				7AD784D4187F6B8B0090433E /* Vector3DS.h */,
 			);
 			path = 3DS;
+			sourceTree = "<group>";
+		};
+		7AD784E0187F741E0090433E /* Stereocam */ = {
+			isa = PBXGroup;
+			children = (
+				7AD784E1187F741E0090433E /* Stereocam.h */,
+				7AD784E2187F741E0090433E /* Stereocam.mm */,
+				7AD784E3187F741E0090433E /* Stereocam.xib */,
+			);
+			path = Stereocam;
 			sourceTree = "<group>";
 		};
 		DDA70002144F1CEE00F81C9E /* Products */ = {
@@ -362,6 +378,7 @@
 				04D480FC187F708E007D5D21 /* ExamplePlugin.xib in Resources */,
 				04D480FE187F708E007D5D21 /* Perspective.xib in Resources */,
 				04D4811C187F7257007D5D21 /* README.md in Resources */,
+				7AD784E5187F741E0090433E /* Stereocam.xib in Resources */,
 				04D480F7187F708E007D5D21 /* InfoPlist.strings in Resources */,
 				04D480FF187F708E007D5D21 /* Stereo-Info.plist in Resources */,
 				04D48100187F708E007D5D21 /* Untitled.of in Resources */,
@@ -399,6 +416,7 @@
 				7AD784D9187F6B8B0090433E /* texture3DS.cpp in Sources */,
 				04D480FB187F708E007D5D21 /* ExamplePlugin.mm in Sources */,
 				04D480FD187F708E007D5D21 /* Perspective.mm in Sources */,
+				7AD784E4187F741E0090433E /* Stereocam.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
