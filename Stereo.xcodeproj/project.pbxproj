@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		045A7FD3187CAE7F0059B668 /* ofxCocoaPlugins.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */; };
 		045A7FD4187CAED10059B668 /* ofxCocoaPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405F124187CA0E5009BAA3C /* ofxCocoaPlugins.framework */; };
+		04D480F7187F708E007D5D21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D480E6187F708E007D5D21 /* InfoPlist.strings */; };
+		04D480F8187F708E007D5D21 /* ExampleAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D480EA187F708E007D5D21 /* ExampleAppDelegate.mm */; };
+		04D480F9187F708E007D5D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D480EB187F708E007D5D21 /* main.m */; };
+		04D480FA187F708E007D5D21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D480EC187F708E007D5D21 /* MainMenu.xib */; };
+		04D480FB187F708E007D5D21 /* ExamplePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D480EF187F708E007D5D21 /* ExamplePlugin.mm */; };
+		04D480FC187F708E007D5D21 /* ExamplePlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F0187F708E007D5D21 /* ExamplePlugin.xib */; };
+		04D480FD187F708E007D5D21 /* Perspective.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D480F3187F708E007D5D21 /* Perspective.mm */; };
+		04D480FE187F708E007D5D21 /* Perspective.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F4187F708E007D5D21 /* Perspective.xib */; };
+		04D480FF187F708E007D5D21 /* Stereo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F5187F708E007D5D21 /* Stereo-Info.plist */; };
+		04D48100187F708E007D5D21 /* Untitled.of in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F6187F708E007D5D21 /* Untitled.of */; };
 		7AC5149F187BB48D00956B3D /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AC5149E187BB48D00956B3D /* libfmodex.dylib */; };
-		7AD06108187E982700BEA544 /* Perspective.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AD06106187E982700BEA544 /* Perspective.mm */; };
-		7AD06109187E982700BEA544 /* Perspective.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD06107187E982700BEA544 /* Perspective.xib */; };
 		7AD784D8187F6B8B0090433E /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D0187F6B8B0090433E /* model3DS.cpp */; };
 		7AD784D9187F6B8B0090433E /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D2187F6B8B0090433E /* texture3DS.cpp */; };
 		7AD784DA187F6B8B0090433E /* ofx3dModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D6187F6B8B0090433E /* ofx3dModelLoader.cpp */; };
-		DD0A3585145437B500CC89E5 /* ExamplePlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */; };
-		DD0A3586145437B500CC89E5 /* ExamplePlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */; };
 		DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD0A3687145441AB00CC89E5 /* Project.xcconfig */; };
 		DD2D7A28145468030074AD61 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D7A27145468030074AD61 /* OpenGL.framework */; };
-		DD9EA902144F308F00E313C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9EA901144F308F00E313C0 /* MainMenu.xib */; };
 		DDA70006144F1CEE00F81C9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA70005144F1CEE00F81C9E /* Cocoa.framework */; };
-		DDA70010144F1CEE00F81C9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */; };
-		DDA70012144F1CEE00F81C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA70011144F1CEE00F81C9E /* main.m */; };
-		DDA70019144F1CEE00F81C9E /* ExampleAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */; };
 		DDF64E43145046CB007B0C0A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E42145046CB007B0C0A /* QTKit.framework */; };
 		DDF64E45145046EC007B0C0A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E44145046EC007B0C0A /* AppKit.framework */; };
 		DDF64E4D145046F9007B0C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF64E46145046F9007B0C0A /* Foundation.framework */; };
@@ -68,10 +70,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04D480E7187F708E007D5D21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D480E8187F708E007D5D21 /* Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		04D480E9187F708E007D5D21 /* ExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		04D480EA187F708E007D5D21 /* ExampleAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleAppDelegate.mm; sourceTree = "<group>"; };
+		04D480EB187F708E007D5D21 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D480EC187F708E007D5D21 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		04D480EE187F708E007D5D21 /* ExamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePlugin.h; sourceTree = "<group>"; };
+		04D480EF187F708E007D5D21 /* ExamplePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExamplePlugin.mm; sourceTree = "<group>"; };
+		04D480F0187F708E007D5D21 /* ExamplePlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamplePlugin.xib; sourceTree = "<group>"; };
+		04D480F2187F708E007D5D21 /* Perspective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perspective.h; sourceTree = "<group>"; };
+		04D480F3187F708E007D5D21 /* Perspective.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Perspective.mm; sourceTree = "<group>"; };
+		04D480F4187F708E007D5D21 /* Perspective.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Perspective.xib; sourceTree = "<group>"; };
+		04D480F5187F708E007D5D21 /* Stereo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stereo-Info.plist"; sourceTree = "<group>"; };
+		04D480F6187F708E007D5D21 /* Untitled.of */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Untitled.of; sourceTree = "<group>"; };
 		7AC5149E187BB48D00956B3D /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../ofxCocoaPlugins/ofxCocoaPlugins/libs/openframeworks/libs/fmodex/lib/osx/libfmodex.dylib; sourceTree = "<group>"; };
-		7AD06105187E982700BEA544 /* Perspective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perspective.h; sourceTree = "<group>"; };
-		7AD06106187E982700BEA544 /* Perspective.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Perspective.mm; sourceTree = "<group>"; };
-		7AD06107187E982700BEA544 /* Perspective.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Perspective.xib; sourceTree = "<group>"; };
 		7AD784D0187F6B8B0090433E /* model3DS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model3DS.cpp; sourceTree = "<group>"; };
 		7AD784D1187F6B8B0090433E /* model3DS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model3DS.h; sourceTree = "<group>"; };
 		7AD784D2187F6B8B0090433E /* texture3DS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture3DS.cpp; sourceTree = "<group>"; };
@@ -80,24 +93,14 @@
 		7AD784D5187F6B8B0090433E /* ofx3DBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DBaseLoader.h; sourceTree = "<group>"; };
 		7AD784D6187F6B8B0090433E /* ofx3dModelLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofx3dModelLoader.cpp; sourceTree = "<group>"; };
 		7AD784D7187F6B8B0090433E /* ofx3DModelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DModelLoader.h; sourceTree = "<group>"; };
-		DD0A3582145437B500CC89E5 /* ExamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePlugin.h; sourceTree = "<group>"; };
-		DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExamplePlugin.mm; sourceTree = "<group>"; };
-		DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExamplePlugin.xib; sourceTree = "<group>"; };
 		DD0A3687145441AB00CC89E5 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		DD2D7A27145468030074AD61 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		DD9EA901144F308F00E313C0 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ofxCocoaPlugins.xcodeproj; path = ../ofxCocoaPlugins/ofxCocoaPlugins.xcodeproj; sourceTree = "<group>"; };
 		DDA70001144F1CEE00F81C9E /* Stereo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stereo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA70005144F1CEE00F81C9E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DDA70008144F1CEE00F81C9E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DDA70009144F1CEE00F81C9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DDA7000A144F1CEE00F81C9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DDA7000D144F1CEE00F81C9E /* Stereo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stereo-Info.plist"; sourceTree = "<group>"; };
-		DDA7000F144F1CEE00F81C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDA70011144F1CEE00F81C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDA70013144F1CEE00F81C9E /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
-		DDA70017144F1CEE00F81C9E /* ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
-		DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleAppDelegate.mm; sourceTree = "<group>"; };
 		DDF64E42145046CB007B0C0A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		DDF64E44145046EC007B0C0A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		DDF64E46145046F9007B0C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -136,12 +139,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AD06104187E982700BEA544 /* Perspective */ = {
+		04D480E5187F708E007D5D21 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				7AD06105187E982700BEA544 /* Perspective.h */,
-				7AD06106187E982700BEA544 /* Perspective.mm */,
-				7AD06107187E982700BEA544 /* Perspective.xib */,
+				04D480E6187F708E007D5D21 /* InfoPlist.strings */,
+				04D480E8187F708E007D5D21 /* Example-Prefix.pch */,
+				04D480E9187F708E007D5D21 /* ExampleAppDelegate.h */,
+				04D480EA187F708E007D5D21 /* ExampleAppDelegate.mm */,
+				04D480EB187F708E007D5D21 /* main.m */,
+				04D480EC187F708E007D5D21 /* MainMenu.xib */,
+				04D480ED187F708E007D5D21 /* Plugins */,
+				04D480F5187F708E007D5D21 /* Stereo-Info.plist */,
+				04D480F6187F708E007D5D21 /* Untitled.of */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		04D480ED187F708E007D5D21 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				04D480EE187F708E007D5D21 /* ExamplePlugin.h */,
+				04D480EF187F708E007D5D21 /* ExamplePlugin.mm */,
+				04D480F0187F708E007D5D21 /* ExamplePlugin.xib */,
+				04D480F1187F708E007D5D21 /* Perspective */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		04D480F1187F708E007D5D21 /* Perspective */ = {
+			isa = PBXGroup;
+			children = (
+				04D480F2187F708E007D5D21 /* Perspective.h */,
+				04D480F3187F708E007D5D21 /* Perspective.mm */,
+				04D480F4187F708E007D5D21 /* Perspective.xib */,
 			);
 			path = Perspective;
 			sourceTree = "<group>";
@@ -186,17 +216,6 @@
 			path = 3DS;
 			sourceTree = "<group>";
 		};
-		DD0A3581145437AB00CC89E5 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				7AD06104187E982700BEA544 /* Perspective */,
-				DD0A3582145437B500CC89E5 /* ExamplePlugin.h */,
-				DD0A3583145437B500CC89E5 /* ExamplePlugin.mm */,
-				DD0A3584145437B500CC89E5 /* ExamplePlugin.xib */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
 		DDA70002144F1CEE00F81C9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,36 +251,12 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		DDA7000B144F1CEE00F81C9E /* Stereo */ = {
-			isa = PBXGroup;
-			children = (
-				DD0A3581145437AB00CC89E5 /* Plugins */,
-				DD9EA901144F308F00E313C0 /* MainMenu.xib */,
-				DDA70017144F1CEE00F81C9E /* ExampleAppDelegate.h */,
-				DDA70018144F1CEE00F81C9E /* ExampleAppDelegate.mm */,
-				DDA7000C144F1CEE00F81C9E /* Supporting Files */,
-			);
-			name = Stereo;
-			path = Example;
-			sourceTree = "<group>";
-		};
-		DDA7000C144F1CEE00F81C9E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDA7000D144F1CEE00F81C9E /* Stereo-Info.plist */,
-				DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */,
-				DDA70011144F1CEE00F81C9E /* main.m */,
-				DDA70013144F1CEE00F81C9E /* Example-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		DDA7FFF6144F1CEE00F81C9E = {
 			isa = PBXGroup;
 			children = (
+				04D480E5187F708E007D5D21 /* src */,
 				7AC5149E187BB48D00956B3D /* libfmodex.dylib */,
 				DD0A3687145441AB00CC89E5 /* Project.xcconfig */,
-				DDA7000B144F1CEE00F81C9E /* Stereo */,
 				DD9EA903144F324800E313C0 /* ofxCocoaPlugins.xcodeproj */,
 				7AD0610A187E98DD00BEA544 /* Addons */,
 				DDA70004144F1CEE00F81C9E /* Frameworks */,
@@ -337,11 +332,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA70010144F1CEE00F81C9E /* InfoPlist.strings in Resources */,
-				DD9EA902144F308F00E313C0 /* MainMenu.xib in Resources */,
-				7AD06109187E982700BEA544 /* Perspective.xib in Resources */,
-				DD0A3586145437B500CC89E5 /* ExamplePlugin.xib in Resources */,
 				DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */,
+				04D480FC187F708E007D5D21 /* ExamplePlugin.xib in Resources */,
+				04D480FE187F708E007D5D21 /* Perspective.xib in Resources */,
+				04D480F7187F708E007D5D21 /* InfoPlist.strings in Resources */,
+				04D480FF187F708E007D5D21 /* Stereo-Info.plist in Resources */,
+				04D48100187F708E007D5D21 /* Untitled.of in Resources */,
+				04D480FA187F708E007D5D21 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\" ;\ncp -r \"$PROJECT_DIR/Example/ofData\" \"$TARGET_BUILD_DIR\";\nrm -r \"$TARGET_BUILD_DIR/data\";\nmv \"$TARGET_BUILD_DIR/ofData\" \"$TARGET_BUILD_DIR/data\";";
+			shellScript = "install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\" ;\ncp -r \"$PROJECT_DIR/ofData\" \"$TARGET_BUILD_DIR\";\nrm -r \"$TARGET_BUILD_DIR/data\";\nmv \"$TARGET_BUILD_DIR/ofData\" \"$TARGET_BUILD_DIR/data\";";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -368,23 +365,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD06108187E982700BEA544 /* Perspective.mm in Sources */,
+				04D480F9187F708E007D5D21 /* main.m in Sources */,
 				7AD784DA187F6B8B0090433E /* ofx3dModelLoader.cpp in Sources */,
+				04D480F8187F708E007D5D21 /* ExampleAppDelegate.mm in Sources */,
 				7AD784D8187F6B8B0090433E /* model3DS.cpp in Sources */,
 				7AD784D9187F6B8B0090433E /* texture3DS.cpp in Sources */,
-				DDA70012144F1CEE00F81C9E /* main.m in Sources */,
-				DDA70019144F1CEE00F81C9E /* ExampleAppDelegate.mm in Sources */,
-				DD0A3585145437B500CC89E5 /* ExamplePlugin.mm in Sources */,
+				04D480FB187F708E007D5D21 /* ExamplePlugin.mm in Sources */,
+				04D480FD187F708E007D5D21 /* Perspective.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDA7000E144F1CEE00F81C9E /* InfoPlist.strings */ = {
+		04D480E6187F708E007D5D21 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DDA7000F144F1CEE00F81C9E /* en */,
+				04D480E7187F708E007D5D21 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -456,7 +453,7 @@
 				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "Example/Stereo-Info.plist";
+				INFOPLIST_FILE = "src/Stereo-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = Stereo;
 				WRAPPER_EXTENSION = app;
@@ -473,7 +470,7 @@
 				);
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "Example/Stereo-Info.plist";
+				INFOPLIST_FILE = "src/Stereo-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = Stereo;
 				WRAPPER_EXTENSION = app;
