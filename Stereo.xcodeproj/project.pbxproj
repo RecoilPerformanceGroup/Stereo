@@ -19,6 +19,8 @@
 		04D480FE187F708E007D5D21 /* Perspective.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F4187F708E007D5D21 /* Perspective.xib */; };
 		04D480FF187F708E007D5D21 /* Stereo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F5187F708E007D5D21 /* Stereo-Info.plist */; };
 		04D48100187F708E007D5D21 /* Untitled.of in Resources */ = {isa = PBXBuildFile; fileRef = 04D480F6187F708E007D5D21 /* Untitled.of */; };
+		04D48115187F7257007D5D21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04D48102187F7257007D5D21 /* .gitignore */; };
+		04D4811C187F7257007D5D21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04D48112187F7257007D5D21 /* README.md */; };
 		7AC5149F187BB48D00956B3D /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AC5149E187BB48D00956B3D /* libfmodex.dylib */; };
 		7AD784D8187F6B8B0090433E /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D0187F6B8B0090433E /* model3DS.cpp */; };
 		7AD784D9187F6B8B0090433E /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AD784D2187F6B8B0090433E /* texture3DS.cpp */; };
@@ -84,6 +86,9 @@
 		04D480F4187F708E007D5D21 /* Perspective.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Perspective.xib; sourceTree = "<group>"; };
 		04D480F5187F708E007D5D21 /* Stereo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stereo-Info.plist"; sourceTree = "<group>"; };
 		04D480F6187F708E007D5D21 /* Untitled.of */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Untitled.of; sourceTree = "<group>"; };
+		04D48102187F7257007D5D21 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		04D48112187F7257007D5D21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		04D48114187F7257007D5D21 /* ofxStereoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxStereoCamera.h; sourceTree = "<group>"; };
 		7AC5149E187BB48D00956B3D /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../ofxCocoaPlugins/ofxCocoaPlugins/libs/openframeworks/libs/fmodex/lib/osx/libfmodex.dylib; sourceTree = "<group>"; };
 		7AD784D0187F6B8B0090433E /* model3DS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model3DS.cpp; sourceTree = "<group>"; };
 		7AD784D1187F6B8B0090433E /* model3DS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model3DS.h; sourceTree = "<group>"; };
@@ -176,9 +181,29 @@
 			path = Perspective;
 			sourceTree = "<group>";
 		};
+		04D48101187F7257007D5D21 /* ofxStereoCamera */ = {
+			isa = PBXGroup;
+			children = (
+				04D48102187F7257007D5D21 /* .gitignore */,
+				04D48112187F7257007D5D21 /* README.md */,
+				04D48113187F7257007D5D21 /* src */,
+			);
+			name = ofxStereoCamera;
+			path = Addons/ofxStereoCamera;
+			sourceTree = "<group>";
+		};
+		04D48113187F7257007D5D21 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				04D48114187F7257007D5D21 /* ofxStereoCamera.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		7AD0610A187E98DD00BEA544 /* Addons */ = {
 			isa = PBXGroup;
 			children = (
+				04D48101187F7257007D5D21 /* ofxStereoCamera */,
 				7AD784CD187F6B8B0090433E /* ofx3DModelLoader */,
 			);
 			name = Addons;
@@ -332,9 +357,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D48115187F7257007D5D21 /* .gitignore in Resources */,
 				DD0A3688145441AB00CC89E5 /* Project.xcconfig in Resources */,
 				04D480FC187F708E007D5D21 /* ExamplePlugin.xib in Resources */,
 				04D480FE187F708E007D5D21 /* Perspective.xib in Resources */,
+				04D4811C187F7257007D5D21 /* README.md in Resources */,
 				04D480F7187F708E007D5D21 /* InfoPlist.strings in Resources */,
 				04D480FF187F708E007D5D21 /* Stereo-Info.plist in Resources */,
 				04D48100187F708E007D5D21 /* Untitled.of in Resources */,
