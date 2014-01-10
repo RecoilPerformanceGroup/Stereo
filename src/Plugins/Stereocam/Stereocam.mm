@@ -1,4 +1,6 @@
 #import "Stereocam.h"
+#import <ofxCocoaPlugins/Keystoner.h>
+#import <ofxCocoaPlugins/KeystoneSurface.h>
 
 @implementation Stereocam
 
@@ -16,6 +18,7 @@
 
 
 -(void)setup{
+    
 }
 
 //
@@ -24,6 +27,7 @@
 
 
 -(void)update:(NSDictionary *)drawingInformation{
+    
 }
 
 //
@@ -31,12 +35,21 @@
 //
 
 -(void)draw:(NSDictionary *)drawingInformation{
-    ofEnableAlphaBlending();
-   ofBackground(255,255,0);
-    ofFill();
-    ofSetColor(255,0,0);
-    ofRect( sin(ofGetElapsedTimeMillis() / 1000.0)*0.5+0.5, 0, 100,100);
     
+    ofEnableAlphaBlending();
+    
+    ofFill();
+    
+    ofSetColor(255, 255, 255,255);
+    
+    ApplySurfaceForProjector(@"Floor",0); {
+        
+        float aspect = Aspect(@"Floor", 0);
+        
+        glTranslated(0, 0, 0.01);
+        ofRect(0,0,1*aspect,1);
+        
+    } PopSurfaceForProjector();
    
 }
 
